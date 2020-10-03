@@ -1,0 +1,348 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "WitheredPoison",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "withered_poison"
+    },
+    {
+      "name": "WitheredPoisonProcedure",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "withered_poison_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LifeStealProcedure",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LifeSteal",
+      "type": "enchantment",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "life_steal"
+    },
+    {
+      "name": "IceAspect",
+      "type": "enchantment",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_aspect"
+    },
+    {
+      "name": "IceAspectProcedure",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ice_aspect_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Steadfast",
+      "type": "enchantment",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steadfast"
+    },
+    {
+      "name": "SteadfastProcedure",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steadfast_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CurseOfHunger",
+      "type": "enchantment",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_hunger"
+    },
+    {
+      "name": "CurseOfHungerProcedure",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "curse_of_hunger_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningSpeed",
+      "type": "enchantment",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_speed"
+    },
+    {
+      "name": "LightningSpeedProcedure",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "lightning_speed_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Freeze",
+      "type": "enchantment",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freeze"
+    },
+    {
+      "name": "FreezeProcedure",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freeze_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smelting",
+      "type": "enchantment",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting"
+    },
+    {
+      "name": "SmeltingProcedure",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smelting_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "enchantment.enchantmentsplusplus.life_steal": "Life Steal",
+      "enchantment.enchantmentsplusplus.lightning_speed": "Lightning Speed",
+      "enchantment.enchantmentsplusplus.freeze": "Freeze",
+      "enchantment.enchantmentsplusplus.curse_of_hunger": "Curse Of Hunger",
+      "enchantment.enchantmentsplusplus.withered_poison": "Withered Poison",
+      "enchantment.enchantmentsplusplus.steadfast": "Steadfast",
+      "enchantment.enchantmentsplusplus.smelting": "Smelting",
+      "enchantment.enchantmentsplusplus.ice_aspect": "Ice Aspect"
+    },
+    "de_de": {
+      "enchantment.enchantmentsplusplus.life_steal": "Lebensraub",
+      "enchantment.enchantmentsplusplus.lightning_speed": "Blitzgeschwindigkeit",
+      "enchantment.enchantmentsplusplus.freeze": "Einfrieren",
+      "enchantment.enchantmentsplusplus.curse_of_hunger": "Fluch des Hungers",
+      "enchantment.enchantmentsplusplus.withered_poison": "Verdorrtes Gift",
+      "enchantment.enchantmentsplusplus.steadfast": "Standhaft",
+      "enchantment.enchantmentsplusplus.smelting": "Schmelzen",
+      "enchantment.enchantmentsplusplus.ice_aspect": "Eisaspekt"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "enchantmentsplusplus",
+    "modName": "Enchantments++",
+    "version": "1.0.0",
+    "description": "Add more Enchantments into the game",
+    "author": "SparkleArts",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.enchantmentsplusplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000432115
+}
